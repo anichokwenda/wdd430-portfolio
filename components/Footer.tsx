@@ -1,8 +1,10 @@
-export default function Footer() {  
+export default function Footer() {
+  const year = new Date().getFullYear();
+  
   return (
     <footer className="bg-gray-800 text-white py-4 mt-12">
       <div className="container mx-auto text-center">
-        <p>Copyright &copy; {new Date().getFullYear()} | Xavier Rodriguez | All rights reserved</p>
+        <p>Copyright &copy; {year} | Anisa Chokwenda | All rights reserved</p>
       </div>
     </footer>
   );
